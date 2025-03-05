@@ -56,9 +56,7 @@ public class Produit {
 		this.price = price;
 	}
 	public Produit() {
-		super();
+	
 	}
 	
-	 
-
 }
