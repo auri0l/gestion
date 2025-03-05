@@ -7,6 +7,7 @@ import com.gestion.gestion.entities.Produit;
 public interface IProduitService {
 	
 	
+	
 	public List<Produit> getProduits(); 
 	
 	public Produit getProduitById(int id)  ;
