@@ -25,6 +25,7 @@ public class ProduitController {
 		this.service=service;
 		
 	}
+	
 	/**
 	 * Get all {@Link Produit}.
 	 * 
