@@ -9,14 +9,14 @@ import jakarta.persistence.Id;
 
 
 @Entity
-public class Facture {
+public class Invoice {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	@Column(name = "FACTURE_ID")
+	@Column(name = "INVOICE_ID")
 	private int id;
 	
-	@Column(name = "FACTURE_DATE")
+	@Column(name = "INVOICE_DATE")
 	private Date date;
 	
 	
@@ -32,12 +32,12 @@ public class Facture {
 	public void setDate(Date date) {
 		this.date = date;
 	}
-	public Facture(int id, Date date) {
+	public Invoice(int id, Date date) {
 		
 		this.id = id;
 		this.date = date;
 	}
-	public Facture() {
+	public Invoice() {
 	
 	}
 	
